@@ -238,31 +238,59 @@ if (contactForm && formFeedback) {
             method: 'POST',
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: new URLSearchParams(formData).toString()
-        })
-            .then(() => {
-                // Success State
-                formFeedback.textContent = "Thank you! Your message has been sent successfully.";
-                formFeedback.classList.remove('hidden-msg', 'error');
-                formFeedback.classList.add('success');
+        }).then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            // Success State
+            formFeedback.textContent = "Thank you! Your message has been sent successfully.";
+            formFeedback.classList.remove('hidden-msg', 'error');
+            formFeedback.classList.add('success');
 
-                contactForm.reset(); // Clear the form
+            contactForm.reset(); // Clear the form
 
-                // Hide the success message after 5 seconds
-                setTimeout(() => {
-                    formFeedback.classList.add('hidden-msg');
-                }, 5000);
-            })
-            .catch(error => {
-                // Error State
-                formFeedback.textContent = "Oops! There was a problem submitting your form.";
-                formFeedback.classList.remove('hidden-msg', 'success');
-                formFeedback.classList.add('error');
-            })
-            .finally(() => {
-                // Restore button
-                submitBtn.textContent = originalBtnText;
-                submitBtn.disabled = false;
-            });
+            // Hide the success message after 5 seconds
+            setTimeout(() => {
+                formFeedback.classList.add('hidden-msg');
+            }, 5000);
+        }).catch(error => {
+            // Error State
+            formFeedback.textContent = "Oops! There was a problem submitting your form.";
+            formFeedback.classList.remove('hidden-msg', 'success');
+            formFeedback.classList.add('error');
+        }).finally(() => {
+            // Restore button
+            submitBtn.textContent = originalBtnText;
+            submitBtn.disabled = false;
+        });
     });
 }
 
+// Dark Theme Toggle
+const themeToggleBtn = document.getElementById('theme-toggle');
+const sunIcon = document.querySelector('.sun-icon');
+const moonIcon = document.querySelector('.moon-icon');
+
+// Check for saved user preference, if any, on load of the website
+if (localStorage.getItem('theme') === 'dark' || (!("theme" in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.body.classList.add('dark-mode');
+    if (sunIcon && moonIcon) {
+        sunIcon.classList.remove('hidden-icon');
+        moonIcon.classList.add('hidden-icon');
+    }
+}
+
+if (themeToggleBtn && sunIcon && moonIcon) {
+    themeToggleBtn.addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+        sunIcon.classList.toggle('hidden-icon');
+        moonIcon.classList.toggle('hidden-icon');
+
+        // Save the user's preference in localStorage
+        if (document.body.classList.contains('dark-mode')) {
+            localStorage.setItem('theme', 'dark');
+        } else {
+            localStorage.setItem('theme', 'light');
+        }
+    });
+}
