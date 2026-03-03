@@ -243,6 +243,9 @@ h3 {
     list-style: none;
     display: flex;
     gap: 2.5rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .nav-links a {
@@ -1334,10 +1337,11 @@ footer {
     .nav-links {
         position: fixed;
         left: -100%;
+        transform: none;
         top: 70px;
         gap: 0;
         flex-direction: column;
-        background: rgba(255, 255, 255, 0.98);
+        background: var(--navbar-scrolled-bg);
         width: 100%;
         text-align: center;
         transition: 0.3s;
