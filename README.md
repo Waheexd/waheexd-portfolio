@@ -5,7 +5,7 @@ Welcome to my personal portfolio repository! This project is a modern, responsiv
 ## 🚀 Live Demo
 
 You can view the live deployment of this portfolio here:
-**[Insert your Netlify link here, e.g., https://your-portfolio.netlify.app]**
+https://waheexd-portfolio.netlify.app
 
 ---
 
