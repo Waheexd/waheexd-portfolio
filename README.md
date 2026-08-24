@@ -1,4 +1,4 @@
-# Mohammed Waheed - Personal Portfolio
+# Mohammed Waheed - Developer Portfolio
 
 Welcome to my personal portfolio repository! This project is a modern, responsive web application showcasing my skills, experience, and selected works as a Software Engineer.
 

@@ -1554,6 +1554,10 @@ footer {
     justify-content: center;
   }
 
+  .social-dock {
+    margin: 0 auto;
+  }
+
   .social-links-inline {
     justify-content: center;
   }
