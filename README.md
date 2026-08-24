@@ -1,16 +1,72 @@
-# React + Vite
+# Mohammed Waheed - Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Welcome to my personal portfolio repository! This project is a modern, responsive web application showcasing my skills, experience, and selected works as a Software Engineer.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+You can view the live deployment of this portfolio here:
+**[Insert your Netlify link here, e.g., https://your-portfolio.netlify.app]**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 👨‍💻 About Me
 
-## Expanding the Oxlint configuration
+I am a Software Engineer and MCA candidate with strong skills in software development, web development, and Android application development. I am passionate about building efficient systems, writing clean code, and delivering user-centric, innovative software solutions. 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## 🛠️ Tech Stack
+
+This portfolio is built using modern web technologies to ensure high performance, maintainability, and smooth animations:
+
+- **Frontend Framework:** React 19
+- **Build Tool:** Vite
+- **Animations:** Framer Motion
+- **Icons:** Lucide React
+- **Deployment & Hosting:** Netlify
+
+---
+
+## 💻 Local Development
+
+Follow these steps to run the project locally on your machine.
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- `npm` (Node Package Manager)
+
+### Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Waheexd/Portfolio_Project.git
+   cd Portfolio_Project
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **View in Browser:**
+   Open the local URL provided in your terminal (usually `http://localhost:5173`) to view it in the browser.
+
+### Build for Production
+To create a production-ready build:
+```bash
+npm run build
+```
+
+---
+
+## 📬 Contact
+
+Feel free to reach out to me for collaborations or inquiries:
+- **Email:** mohdwhd3@gmail.com
+- **LinkedIn:** [Mohammed Waheed](https://www.linkedin.com/in/mohammed-waheed-whd3/)
+- **GitHub:** [@Waheexd](https://github.com/Waheexd)
