@@ -62,20 +62,8 @@ export default function Navbar() {
     setTheme(prev => prev === 'light' ? 'dark' : 'light');
   };
 
-  const handleLinkClick = (e, href) => {
-    e.preventDefault();
-    const targetId = href.substring(1);
-    const element = document.getElementById(targetId);
-    if (element) {
-      if (isMobileMenuOpen) {
-        setIsMobileMenuOpen(false);
-        setTimeout(() => {
-          element.scrollIntoView({ behavior: 'smooth' });
-        }, 300);
-      } else {
-        element.scrollIntoView({ behavior: 'smooth' });
-      }
-    }
+  const handleLinkClick = () => {
+    setIsMobileMenuOpen(false);
   };
 
   return (
@@ -85,13 +73,7 @@ export default function Navbar() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.5, ease: 'easeOut' }}
     >
-      <a href="#home" className="logo-container" onClick={(e) => handleLinkClick(e, '#home')}>
-        <div className="logo-badge">MW</div>
-        <div className="logo-text">
-          <span className="logo-first-name">Mohammed</span>
-          <span className="logo-last-name">Waheed</span>
-        </div>
-      </a>
+      <div className="logo">Portfolio.</div>
 
       {/* Desktop Links */}
       <ul className="nav-links desktop-only">
@@ -149,7 +131,7 @@ export default function Navbar() {
                   <a 
                     href={item.href} 
                     className={activeSection === item.href.substring(1) ? 'active' : ''}
-                    onClick={(e) => handleLinkClick(e, item.href)}
+                    onClick={handleLinkClick}
                   >
                     {item.label}
                   </a>
