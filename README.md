@@ -11,7 +11,7 @@ https://waheexd-portfolio.netlify.app
 
 ## 👨‍💻 About Me
 
-I am a Software Engineer and MCA candidate with strong skills in software development, web development, and Android application development. I am passionate about building efficient systems, writing clean code, and delivering user-centric, innovative software solutions. 
+MCA Graduate and passionate Software Developer with expertise in software development, web development, Android application development, machine learning, and deep learning. Proficient in Java, Python, SQL, HTML, CSS, JavaScript, and modern web technologies. Experienced in building responsive web interfaces, backend services, database-driven applications, and Android apps with efficient data handling. Skilled in developing machine learning and deep learning models for data analysis, prediction, classification, and intelligent automation. Adept at transforming complex requirements into clean, maintainable, and scalable solutions while continuously learning emerging technologies.
 
 ---
 
