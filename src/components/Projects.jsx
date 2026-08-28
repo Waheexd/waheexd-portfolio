@@ -13,7 +13,7 @@ const projectsData = [
     title: 'ShuttleScore – Badminton Scoring App',
     techStack: 'Android Studio, Java, SQLite',
     description: 'Developed an Android application for real-time badminton score tracking with configurable match formats, player management, and match history storage.',
-    link: 'https://www.linkedin.com/feed/update/urn:li:activity:7390035461412483072/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD3bYaIBdbhLBDP2cmGcqsVNT51BPBxE6c4',
+    link: 'https://github.com/Waheexd/ShuttleScore_App',
     imageUrl: '/resources/badminton.webp'
   },
   {
