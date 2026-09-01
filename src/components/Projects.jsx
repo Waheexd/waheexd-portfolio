@@ -7,7 +7,6 @@ const projectsData = [
   techStack: 'Python, Streamlit, Ultralytics (YOLOv8), OpenCV, PyTorch, NumPy, Pillow',
   description: 'Engineered a real-time computer vision system powered by custom-trained YOLOv8 deep learning models to detect, localize, and evaluate road surface defects and potholes. Features an interactive, theme-adaptive dashboard with dynamic confidence thresholding, sub-100ms inference latency, severity reliability tiers, and edge deployment readiness for in-vehicle dashcams and road safety inspection.',
   link: 'https://github.com/Waheexd/Pothole_Detection',
-  liveUrl: 'https://potholedetectorsystem.streamlit.app',
   imageUrl: '/resources/pothole_detection.jpg'
 },
   {
