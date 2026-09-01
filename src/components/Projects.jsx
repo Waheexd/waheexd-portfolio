@@ -3,6 +3,14 @@ import { ArrowUpRight } from 'lucide-react';
 
 const projectsData = [
   {
+  title: 'Road Pothole Detection System – Real-Time Computer Vision & Road Safety',
+  techStack: 'Python, Streamlit, Ultralytics (YOLOv8), OpenCV, PyTorch, NumPy, Pillow',
+  description: 'Engineered a real-time computer vision system powered by custom-trained YOLOv8 deep learning models to detect, localize, and evaluate road surface defects and potholes. Features an interactive, theme-adaptive dashboard with dynamic confidence thresholding, sub-100ms inference latency, severity reliability tiers, and edge deployment readiness for in-vehicle dashcams and road safety inspection.',
+  link: 'https://github.com/Waheexd/Pothole_Detection',
+  liveUrl: 'https://potholedetectorsystem.streamlit.app',
+  imageUrl: '/resources/pothole_detection.jpg'
+},
+  {
     title: 'Medical Report Hub – AI-Powered Laboratory Report Analyzer',
     techStack: 'Python, Streamlit, Groq (Llama-3), PyMuPDF, HuggingFace, FAISS',
     description: 'Developed an advanced AI-powered web application using Retrieval-Augmented Generation (RAG) to extract and analyze medical data from PDFs and images, featuring automatic abnormal value detection, multi-lingual plain-language summaries, and an interactive chat assistant for lab results.',
