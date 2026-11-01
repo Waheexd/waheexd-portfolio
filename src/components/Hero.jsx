@@ -118,7 +118,7 @@ export default function Hero() {
           <motion.p className="hero-subtitle" variants={itemVariants}>Software Engineer</motion.p>
 
           <motion.p className="hero-desc" variants={itemVariants}>
-            As a Software Engineer, I create scalable applications and write clean, optimized
+            As a Aspiring Software Engineer, I create scalable applications and write clean, optimized
             code to solve real-world problems. I’m passionate about building efficient systems that drive innovation and measurable results.
           </motion.p>
 
