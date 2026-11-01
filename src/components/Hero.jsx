@@ -115,7 +115,7 @@ export default function Hero() {
             </span>
           </motion.h1>
 
-          <motion.p className="hero-subtitle" variants={itemVariants}>Software Engineer</motion.p>
+          <motion.p className="hero-subtitle" variants={itemVariants}>Aspiring Software Engineer</motion.p>
 
           <motion.p className="hero-desc" variants={itemVariants}>
             As a Aspiring Software Engineer, I create scalable applications and write clean, optimized
