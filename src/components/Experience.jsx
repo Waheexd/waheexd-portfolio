@@ -7,13 +7,15 @@ const experienceData = [
     role: 'Software Developer Intern',
     company: 'DifferentTech Solutions, Mangalore',
     period: "Feb'26 - Nov'26",
-    bullets: [
-      <>Developed and enhanced an <strong>Equipment Rental Management System</strong> using <strong>Spring Boot, MySQL, and Angular</strong>.</>,
-      <>Implemented <strong>Vendor Management</strong> features including creating, viewing, updating, and deleting vendor records.</>,
-      <>Contributed to the <strong>dashboard module</strong> to provide insights into vendor purchases and equipment borrowing activities.</>,
-      <>Contributed to a <strong>report migration project</strong>, converting <strong>MS Access</strong> reports into <strong>JasperReports</strong> while ensuring data accuracy, validation, and improved performance.</>,
-      <>Collaborated with <strong>cross-functional teams</strong> on report redesign, data validation, optimization, and application development to deliver scalable and maintainable solutions.</>
-    ]
+bullets: [
+  <><strong>Equipment Rental Management System:</strong> Developed and enhanced an Equipment Rental Management System using <strong>Spring Boot, MySQL, and Angular</strong>.</>,
+  <>Implemented <strong>Vendor Management</strong> functionalities, including creating, viewing, updating, and deleting vendor records.</>,
+  <>Contributed to the <strong>Dashboard Module</strong>, providing insights into vendor purchases and equipment borrowing activities, including <strong>Borrow Out, Borrow In, and Purchase Reports</strong>.</>,
+  <>Participated in <strong>application testing, debugging, issue identification, and resolution</strong> to improve functionality and reliability.</>,
+  <><strong>Report Migration Project (MS Access to JasperReports):</strong> Contributed to migrating legacy <strong>MS Access reports to JasperReports</strong>.</>,
+  <>Worked on <strong>report redesign</strong>, correcting alignment and formatting issues, and meticulously validating report layouts and data accuracy.</>,
+  <>Performed <strong>testing, debugging, and issue resolution</strong> to ensure reports matched the expected output and maintained consistency.</>
+]
   }
 ];
 
